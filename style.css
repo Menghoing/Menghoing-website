@@ -1,0 +1,163 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #add8e6; /* Light blue header */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #add8e6; /* Light blue navigation background */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White link color */
+    padding: 5px 10px;
+    border: 1px solid #fff; /* White border */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* White background on hover */
+    color: #add8e6; /* Light blue text on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #add8e6; /* Light blue heading */
+}
+
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff3e6; /* Pale orange background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcc99; /* Light coral header */
+    color: #ff3366; /* Pinkish-red text color */
+    text-align: center;
+    padding: 20px;
+}
+
+nav .food-list {
+    list-style-type: none;
+    background-color: #ffcc99; /* Light coral navigation background */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav .food-list li {
+    margin-right: 10px;
+    margin-bottom: 20px; /* Adds spacing between rows */
+    text-align: center;
+    border: 1px solid #ffcc99; /* Add a border around the images */
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav .food-list li a {
+    text-decoration: none;
+    color: #ff3366; /* Pinkish-red link color */
+    display: block;
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav .food-list li a:hover {
+    background-color: #ff3366; /* Pinkish-red background on hover */
+    color: #fff3e6; /* Pale orange text on hover */
+}
+
+main {
+    padding: 20px;
+}
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #add8e6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav .food-list {
+    list-style-type: none;
+    background-color: #add8e6;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+}
+
+nav .food-list li {
+    margin-right: 10px;
+    margin-bottom: 20px; /* Adds spacing between rows */
+    text-align: center;
+}
+
+nav .food-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+}
+
+nav .food-list li a:hover {
+    background-color: #fff;
+    color: #add8e6;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff3e6;
+}
+/* style.css */
+
+/* Set the font color and size for the captions */
+.food-list p {
+    color: mintcream; /* Mint color for the text */
+    font-size: 18px; /* Font size in pixels */
+}
+
+/* Additional styles can be added here */
+/* style_korean.css */
+

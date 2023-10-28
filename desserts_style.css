@@ -1,0 +1,89 @@
+/* Your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Light yellow background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+
+    background-color: lemonchiffon; /* Light coral background */
+    padding: 20px;
+}
+
+
+
+h1 {
+    color: peachpuff;
+    font-size: 36px;
+    font-family: 'Pacifico', cursive; /* Use a cute and attractive font */
+}
+
+p {
+    color: #555; /* Dark gray text color */
+    font-size: 20px;
+}
+
+nav {
+    background-color: lavenderblush; /* Peach background */
+    padding: 20px;
+}
+
+.dessert-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 20px;
+    text-align: center;
+    background-color: lightcyan; /* Light yellow background for dish cards */
+    border-width: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 10px #ddd; /* Soft shadow */
+    transition: transform 0.2s;
+    flex: 0 0 calc(33.33% - 40px); /* Set a fixed width for each item */
+}
+
+
+
+
+/* Adjust the styling for the images to fit three in a row */
+img {
+    border: 5px solid #ffcc99;
+    border-radius: 15px;
+    width: 300; /* Make the images occupy 100% of the width of their containers */
+    height: 250px; /* Change the height to 250px */
+    box-sizing: border-box; /* Include border in the size calculations */
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+.navigation {
+    text-align: center;
+}
+
+/* Style the buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: burlywood;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px; /* Rounded corners */
+}
+
+.button:hover {
+    background-color: burlywood;
+}
+

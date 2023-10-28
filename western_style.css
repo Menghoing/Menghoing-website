@@ -1,0 +1,83 @@
+/* Your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f5; /* Very light blue-gray background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffb6c1; /* Light coral-pink background */
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Pacifico', cursive; /* Use a cute and attractive font */
+}
+
+p {
+    color: #555; /* Dark gray text color */
+    font-size: 20px;
+}
+
+nav {
+    background-color: #b0e0e6; /* Light blue background */
+    padding: 20px;
+}
+
+.food-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 20px;
+    text-align: center;
+    background-color: #fff5e6; /* Very light orange background for dish cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 10px #ddd; /* Soft shadow */
+    transition: background-color 0.2s; /* Change the background color on hover */
+    flex: 0 0 calc(33.33% - 40px); /* Set a fixed width for each item */
+}
+
+
+
+img {
+    border: 5px solid #ffcc99;
+    border-radius: 15px;
+    width: 300px; /* Change the width to 300px */
+    height: 250px; /* Change the height to 250px */
+    box-sizing: border-box; /* Include border in the size calculations */
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+.navigation {
+    text-align: center;
+}
+
+/* Style the buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: burlywood;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px; /* Rounded corners */
+}
+
+.button:hover {
+    background-color: burlywood;
+}
